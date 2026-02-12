@@ -1,0 +1,120 @@
+###
+GET http://localhost:4000/books
+
+###
+GET https://bookapi.rentoch.com/books
+
+###
+DELETE https://bookapi.rentoch.com/books/6124acbaf0e6dbaa92713d7b
+
+###
+
+POST http://localhost:4000/books
+Content-Type: application/json
+
+{
+    "title": "Harry Potter 2",
+    "category": "adventure",
+    "description": "some kid that goes to school that teaches magic stuff.",
+    "price": "45"
+}
+
+###
+
+Get http://localhost:4000/books/601bc49fbf539b0009dd30a5
+
+
+###
+
+DELETE http://localhost:4000/books/60c90b03749b4b297acb0dfe
+
+###
+PATCH http://localhost:3000/books/60193137df67bf3fb495be15
+Content-Type: application/json
+
+{
+    "description": "first part"
+}
+
+#admin side
+###
+GET http://localhost:4000/admin HTTP/1.1
+
+###
+GET http://localhost:4000/admin/60f411b9ae9daf2c5083ba10 HTTP/1.1
+
+###
+DELETE http://localhost:4000/admin/60f411b9ae9daf2c5083ba10 HTTP/1.1
+
+###
+POST http://localhost:4000/admin HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Abenezer",
+    "phoneNumber": "934171620",
+    "address": {
+        "city": "Addis Ababa",
+        "country": "Ethiopia"
+    },
+    "purchasedBooks": [
+        {
+            "title": "Harry Potter 2",
+            "category": "adventure",
+            "description": "some kid that goes to school that teaches magic stuff.",
+            "price": "45"
+        },
+        {
+            "title": "You",
+            "category": "action",
+            "description": "some kid that goes to school that teaches magic stuff.",
+            "price": "20"
+        }
+    ],
+    "purchasedDate": "21/10/2021"
+}
+
+###
+GET https://bookapi.rentoch.com/admin HTTP/1.1
+
+###
+DELETE https://bookapi.rentoch.com/admin/60f41776fca2ff712ab529d2 HTTP/1.1
+
+###
+POST https://bookapi.rentoch.com/admin HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Abenezer",
+    "phoneNumber": "934171620",
+    "address": {
+        "city": "Addis Ababa",
+        "country": "Ethiopia"
+    },
+    "purchasedBooks": [
+        {
+            "title": "Harry Potter 2",
+            "category": "adventure",
+            "description": "some kid that goes to school that teaches magic stuff.",
+            "price": "45"
+        },
+        {
+            "title": "You",
+            "category": "action",
+            "description": "some kid that goes to school that teaches magic stuff.",
+            "price": "20"
+        }
+    ],
+    "purchasedDate": "21/10/2021"
+}
+
+###
+GET https://bookapi.rentoch.com/books HTTP/1.1
+
+###
+PATCH https://bookapi.rentoch.com/books/60d350aab99de0465e5076cf
+Content-Type: application/json
+
+{
+    "price": "$45"
+}

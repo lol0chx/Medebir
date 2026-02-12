@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bookStoreApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flutterBookUploaderNewApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/medebir_with_getx" vcs="Git" />
+  </component>
+</project>

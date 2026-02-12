@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "752950347954",
+    "project_id": "medebir-bbf03",
+    "storage_bucket": "medebir-bbf03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752950347954:android:1e581b592a71d48ce7e1ab",
+        "android_client_info": {
+          "package_name": "com.abdev.medebir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752950347954-sabjum1q874nqlgfpf3rnab74oi7sl2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdev.medebir",
+            "certificate_hash": "f109758b961bfe160106c7bf30bd685b1f3862d5"
+          }
+        },
+        {
+          "client_id": "752950347954-l0c5kujinfue02ki3ld7grv6uoiq9vaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSsEe3CAQEqKAL5YEbtV3As8hFdrDldOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752950347954-l0c5kujinfue02ki3ld7grv6uoiq9vaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

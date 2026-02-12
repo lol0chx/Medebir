@@ -1,0 +1,54 @@
+name: medebir_with_getx
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #Auth
+  firebase_core: ^1.1.1
+  firebase_auth: ^1.1.4
+  cloud_firestore: ^2.2.0
+  google_sign_in: ^5.0.3
+  #for profileImage uploading
+  cloudinary_public: ^0.8.1+1
+  image_picker: ^0.7.5+3
+  #other
+  http: ^0.13.3
+  connectivity: ^3.0.3
+  intl: ^0.17.0
+  font_awesome_flutter: ^10.12.0
+  flutter_svg:
+  flutter_keyboard_size: ^1.0.0+3
+  #stateManager
+  get: ^4.1.4
+  get_storage: ^2.0.2
+  #persister
+  sqflite: ^2.0.0+3
+  #for getting location
+  location: ^4.3.0
+  #animation
+  lottie: ^1.1.0
+  #image
+  cached_network_image: ^3.1.0
+  #rating
+  flutter_rating_stars: ^1.0.3+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

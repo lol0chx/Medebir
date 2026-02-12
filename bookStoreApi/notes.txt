@@ -1,0 +1,7 @@
+cloud name: df8icafxq
+api key: 218628971993324
+api secret: PX2IKSROu2jg8nt-pwYaynzXVOw
+
+apibaseUrl: 	https://api.cloudinary.com/v1_1/df8icafxq
+
+uploadPresetName: qlylnks5
