@@ -16,7 +16,7 @@ class ApiController extends GetxController {
   }
 
   void getData() async {
-    var uri = Uri.parse("https://bookapi.rentoch.com/books");
+    var uri = Uri.parse("http://10.0.2.2:4000/books");
     var response = await http.get(uri);
     var jsonData = jsonDecode(response.body);
     for (int i = 0; i < jsonData.length; i++) {

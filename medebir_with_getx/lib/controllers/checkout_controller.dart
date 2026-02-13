@@ -73,7 +73,7 @@ class CheckOutController extends GetxController {
     final CartController _cartController = Get.find<CartController>();
     final AuthController _authController = Get.find<AuthController>();
 
-    Uri adminUrl = Uri.parse("https://bookapi.rentoch.com/admin");
+    Uri adminUrl = Uri.parse("http://10.0.2.2:4000/admin");
     //
     String name = _authController.currentUser.name;
     var purchasedBooks = [];
